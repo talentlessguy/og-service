@@ -2,14 +2,14 @@
 
 Golang service for getting OpenGraph data from a URL.
 
-[Open ↗](https://relay-link-previewer.herokuapp.com)
+[Open ↗](https://og-service.herokuapp.com/)
 
 ## Usage
 
 The URL scheme looks like this:
 
 ```
-https://relay-link-previewer.herokuapp.com/?link=<link>
+https://https://og-service.herokuapp.com/?link=<link>
 ```
 
 You can use this both on frontend and backend.
