@@ -1,4 +1,4 @@
-module github.com/relay-chat/react-link-previewer
+module github.com/talentlessguy/og-service
 
 go 1.14
 

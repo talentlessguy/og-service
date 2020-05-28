@@ -37,6 +37,8 @@ func NewReactLinkPreview(origins []string) http.Handler {
 
 		r.Header.Set("Content-Type", "application/json")
 
+		w.Header().Set("Content-Type", "application/json")
+
 		resData := resStruct{
 			Title:       og.Title,
 			Type:        og.Type,

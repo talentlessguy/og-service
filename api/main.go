@@ -13,6 +13,10 @@ func main() {
 
 	port := os.Getenv("PORT")
 
+	if port == "" {
+		port = "8080"
+	}
+
 	// Those are RelayChat origins, replace them with your own
 	origins := []string{"*"}
 
