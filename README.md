@@ -5,6 +5,7 @@ Golang service for getting OpenGraph data from a URL. Might be useful for link p
 ## Instances
 
 - [og-service.herokuapp.com](https://og-service.herokuapp.com)
+- [vercel-og-service.vercel.app](https://vercel-og-service.vercel.app)
 
 ## Usage
 
