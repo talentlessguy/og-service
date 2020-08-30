@@ -17,7 +17,7 @@ https://https://og-service.herokuapp.com/?link=<link>
 ## Example
 
 ```sh
-curl 'https://https://og-service.herokuapp.com/?link=https://v1rtl.site'
+curl 'https://og-service.herokuapp.com/?link=https://v1rtl.site'
 ```
 
 The endpoint will return data of the following structure:
