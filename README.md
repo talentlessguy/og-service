@@ -43,7 +43,7 @@ go get -u -v https://github.com/talentlessguy/og-service
 
 ## Using with Go
 
-And then use it in your http server.
+And then use it in your Go http server to deploy it later.
 
 ```go
 package main
@@ -57,12 +57,14 @@ import (
 
 func main() {
 
-  origins := []string{"*"}
+	// List of origins that can request this endpoint
+  	origins := []string{"*"}
 
 	s := preview.NewReactLinkPreviewService(origins)
 
 	log.Println("Started a service on http://localhost:8080")
 
+	// Launch the service on a port
 	log.Fatal(http.ListenAndServe(":8080", s))
 }
 ```
