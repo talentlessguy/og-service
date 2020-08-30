@@ -1,8 +1,10 @@
 # og-service
 
-Golang service for getting OpenGraph data from a URL.
+Golang service for getting OpenGraph data from a URL. Might be useful for link previews.
 
-[Open ↗](https://og-service.herokuapp.com/)
+## Instances
+
+- [og-service.herokuapp.com](https://og-service.herokuapp.com)
 
 ## Usage
 
@@ -12,7 +14,24 @@ The URL scheme looks like this:
 https://https://og-service.herokuapp.com/?link=<link>
 ```
 
-You can use this both on frontend and backend.
+## Example
+
+```sh
+https://https://og-service.herokuapp.com/?link=https://v1rtl.site
+```
+
+The endpoint will return data of the following structure:
+
+```json
+{
+  "title": "v 1 r t l ✨",
+  "type": "",
+  "url": "v1rtl.site",
+  "website": "",
+  "description": "16 yo nullstack (TS/Go) developer, open sourcerer. Creator of go-web-app, react-postprocessing and tinyhttp. Author of t.me/we_use_js Telegram channel",
+  "images": []
+}
+```
 
 ## Installation
 
@@ -22,7 +41,9 @@ The service itself is a go package which you can install and deploy on your own.
 go get -u -v https://github.com/talentlessguy/og-service
 ```
 
-And then use it in your http server:
+## Using with Go
+
+And then use it in your http server.
 
 ```go
 package main
