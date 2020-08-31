@@ -1,5 +1,7 @@
 # og-service
 
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/talentlessguy/og-service?style=flat-square) [![GoDoc](https://godoc.org/github.com/talentlessguy/og-service?status.svg&style=flat-square)](https://pkg.go.dev/talentlessguy/og-service)
+
 Golang service for getting OpenGraph data from a URL. Might be useful for link previews.
 
 ## Instances
