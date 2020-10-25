@@ -14,7 +14,7 @@ Golang service for getting OpenGraph data from a URL. Might be useful for link p
 The URL scheme looks like this:
 
 ```
-https://https://og-service.herokuapp.com/?link=<link>
+https://og-service.herokuapp.com/?link=<link>
 ```
 
 ## Example
