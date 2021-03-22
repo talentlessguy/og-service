@@ -2,7 +2,7 @@
 
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/talentlessguy/og-service?style=flat-square) [![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/talentlessguy/og-service)
 
-Golang service for getting OpenGraph data from a URL. Might be useful for link previews.
+Golang service for getting OpenGraph data from a URL. Useful for link previews.
 
 ## Instances
 
@@ -38,7 +38,7 @@ The endpoint will return data of the following structure:
 
 ## Installation
 
-The service itself is a go package which you can install and deploy on your own.
+The service itself is a go package that you can install and deploy on your own.
 
 ```shell
 go get -u -v https://github.com/talentlessguy/og-service
@@ -46,7 +46,7 @@ go get -u -v https://github.com/talentlessguy/og-service
 
 ## Using with Go
 
-And then use it in your Go http server to deploy it later.
+And then use it in your Go HTTP server:
 
 ```go
 package main
